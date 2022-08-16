@@ -138,6 +138,7 @@ To build a deployment package with Maven, use the [Maven Shade plugin](https://m
 **Example pom\.xml – Plugin configuration**  
 
 ```
+    <!--Add compatible compiler plugin 'maven-compiler-plugin' -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
